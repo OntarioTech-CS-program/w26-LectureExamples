@@ -54,3 +54,11 @@ Java examples creating basic Socket server and client, and using API.
   - Run the program
 6. To run the `BikeShare` class:
   - Go to the BikeShare class and run it
+
+## Module 7 - examples `HorseRaceDemo`, `TestRunnableDemo`, `TestThreadDemo`, and `SwingWorkerDemo`
+Intellij Project with demos for Module 7 using threads.
+#### To test
+1. Open folder as IntelliJ project
+2. Go to the desired main class and run the code.
+
+
