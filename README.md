@@ -30,6 +30,27 @@ Collection of Java programs linked to the Module 4 videos/slides.
 
 ## Module 4 - SwingDemo
 Java examples creating UI components and events.
+#### To test
+1. Open folder as IntelliJ project
+2. Go to the Main class and run the code.
 
 ## Module 5 - examples `FindAverage` and `WordCounter`
 Intellij Project with demos for Module 5 on Files IO.
+#### To test
+1. Open folder as IntelliJ project
+2. Go to the Main class and run the code.
+
+## Module 6 - Client-Server + OpenData
+Java examples creating basic Socket server and client, and using API.
+#### To test
+1. Open folder as IntelliJ project
+2. Run the Server and Client Applications:
+   - Run the Server first: Go to the `SocketServer` class and run the code.
+   - Go to Run → Edit Configurations…
+   - Click the + (top-left) → choose Application.
+   - Give it a name (ie Client), select the `SocketClient` Class and run.
+4. To run the YouTube example:
+  - First create an API key (see the documented code) and add your key into the code
+  - Run the program
+6. To run the `BikeShare` class:
+  - Go to the BikeShare class and run it
