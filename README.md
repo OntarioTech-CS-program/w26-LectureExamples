@@ -18,6 +18,15 @@ Simple IntelliJ Java project using Maven to build a `.jar` file.
 
 ## Module 4 Short Examples
 Collection of Java programs linked to the Module 4 videos/slides. 
+#### To test
+1. Compile the classes: In the terminal at this folder, run `javac *.java`
+2. Run the different demos: `java <mainClass>`
+   - `java FirstGUI` 
+   - `java CounterController`
+   - `java DynamicTreeExample`
+   - `java ColorChooserDemo`
+   - `java DisplayGraphics`
+   - `java AnimatedRectangule`
 
 ## Module 4 - SwingDemo
 Java examples creating UI components and events.
