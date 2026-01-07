@@ -1,0 +1,182 @@
+{
+  "regionCode": "CA",
+  "kind": "youtube#searchListResponse",
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 5
+  },
+  "etag": "5WeVWGjJA4SQ9J86c67tc5Z5hyc",
+  "items": [
+    {
+      "snippet": {
+        "publishTime": "2025-02-13T03:17:01Z",
+        "publishedAt": "2025-02-13T03:17:01Z",
+        "description": "If you want to support and follow Joe, find his channel here: @JoeTegtmeyer Here is my latest video which I am posting a bit later ...",
+        "title": "Flight 8: Why SpaceX Just Performed the LONGEST Static Fire of a Starship?!",
+        "thumbnails": {
+          "default": {
+            "width": 120,
+            "url": "https://i.ytimg.com/vi/LKfyGsKKRD4/default.jpg",
+            "height": 90
+          },
+          "high": {
+            "width": 480,
+            "url": "https://i.ytimg.com/vi/LKfyGsKKRD4/hqdefault.jpg",
+            "height": 360
+          },
+          "medium": {
+            "width": 320,
+            "url": "https://i.ytimg.com/vi/LKfyGsKKRD4/mqdefault.jpg",
+            "height": 180
+          }
+        },
+        "channelId": "UCelXvXZDvx8_TdOOffevzGg",
+        "channelTitle": "Ellie in Space",
+        "liveBroadcastContent": "none"
+      },
+      "kind": "youtube#searchResult",
+      "etag": "eo0mRjmvdZAYq2r9GJl378fVETA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LKfyGsKKRD4"
+      }
+    },
+    {
+      "snippet": {
+        "publishTime": "2025-02-13T00:00:06Z",
+        "publishedAt": "2025-02-13T00:00:06Z",
+        "description": "SpaceX performed a Static Fire doubleheader on Booster 15 & Ship 34. Ship 32 was disassembled, joining Ship 26 in Starship ...",
+        "title": "&quot;I Promise You Starbase Did Not Explode&quot; | SpaceX Boca Chica",
+        "thumbnails": {
+          "default": {
+            "width": 120,
+            "url": "https://i.ytimg.com/vi/GSTb5z-yPQc/default.jpg",
+            "height": 90
+          },
+          "high": {
+            "width": 480,
+            "url": "https://i.ytimg.com/vi/GSTb5z-yPQc/hqdefault.jpg",
+            "height": 360
+          },
+          "medium": {
+            "width": 320,
+            "url": "https://i.ytimg.com/vi/GSTb5z-yPQc/mqdefault.jpg",
+            "height": 180
+          }
+        },
+        "channelId": "UCSUu1lih2RifWkKtDOJdsBA",
+        "channelTitle": "NASASpaceflight",
+        "liveBroadcastContent": "none"
+      },
+      "kind": "youtube#searchResult",
+      "etag": "p0b-NE72DtAeF11JBUgPN3oLNZE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GSTb5z-yPQc"
+      }
+    },
+    {
+      "snippet": {
+        "publishTime": "2025-02-13T12:30:10Z",
+        "publishedAt": "2025-02-13T12:30:10Z",
+        "description": "SpaceX's flight 8 Starship was run through a long-duration static fire test at Starbase in south Texas on Feb. 12, 2025.",
+        "title": "SpaceX Starship fired up for a minute in preparation for flight 8",
+        "thumbnails": {
+          "default": {
+            "width": 120,
+            "url": "https://i.ytimg.com/vi/ENia1MRCIEI/default.jpg",
+            "height": 90
+          },
+          "high": {
+            "width": 480,
+            "url": "https://i.ytimg.com/vi/ENia1MRCIEI/hqdefault.jpg",
+            "height": 360
+          },
+          "medium": {
+            "width": 320,
+            "url": "https://i.ytimg.com/vi/ENia1MRCIEI/mqdefault.jpg",
+            "height": 180
+          }
+        },
+        "channelId": "UCVTomc35agH1SM6kCKzwW_g",
+        "channelTitle": "VideoFromSpace",
+        "liveBroadcastContent": "none"
+      },
+      "kind": "youtube#searchResult",
+      "etag": "C_ecdXcmPNhbZlgKpV70XCyi5xM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ENia1MRCIEI"
+      }
+    },
+    {
+      "snippet": {
+        "publishTime": "2024-11-06T18:33:40Z",
+        "publishedAt": "2024-11-06T18:33:40Z",
+        "description": "Starship's fifth flight test lifted off on October 13, 2024, with our most ambitious test objectives yet as we work to demonstrate ...",
+        "title": "Starship | Fifth Flight Test",
+        "thumbnails": {
+          "default": {
+            "width": 120,
+            "url": "https://i.ytimg.com/vi/hI9HQfCAw64/default.jpg",
+            "height": 90
+          },
+          "high": {
+            "width": 480,
+            "url": "https://i.ytimg.com/vi/hI9HQfCAw64/hqdefault.jpg",
+            "height": 360
+          },
+          "medium": {
+            "width": 320,
+            "url": "https://i.ytimg.com/vi/hI9HQfCAw64/mqdefault.jpg",
+            "height": 180
+          }
+        },
+        "channelId": "UCtI0Hodo5o5dUb67FeUjDeA",
+        "channelTitle": "SpaceX",
+        "liveBroadcastContent": "none"
+      },
+      "kind": "youtube#searchResult",
+      "etag": "gwgMrDMPy6Q5Oc1GuOnSKTKdaNg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hI9HQfCAw64"
+      }
+    },
+    {
+      "snippet": {
+        "publishTime": "2025-02-12T11:52:40Z",
+        "publishedAt": "2025-02-12T11:52:40Z",
+        "description": "Big POP!? SpaceX Performed Craziest Starship Test Frenzy Ever. Flight 8 Imminent... === 00:00: Intro 00:49: S34's static fire test ...",
+        "title": "Big POP!? SpaceX Performed Craziest Starship Test Frenzy Ever. Flight 8 Imminent...",
+        "thumbnails": {
+          "default": {
+            "width": 120,
+            "url": "https://i.ytimg.com/vi/pRyKa4OOKLk/default.jpg",
+            "height": 90
+          },
+          "high": {
+            "width": 480,
+            "url": "https://i.ytimg.com/vi/pRyKa4OOKLk/hqdefault.jpg",
+            "height": 360
+          },
+          "medium": {
+            "width": 320,
+            "url": "https://i.ytimg.com/vi/pRyKa4OOKLk/mqdefault.jpg",
+            "height": 180
+          }
+        },
+        "channelId": "UCRAu2aXcH-B5h9SREfyhXuA",
+        "channelTitle": "GREAT SPACEX",
+        "liveBroadcastContent": "none"
+      },
+      "kind": "youtube#searchResult",
+      "etag": "dhs-0STsPVD8yUv-oMNRivbj2-A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pRyKa4OOKLk"
+      }
+    }
+  ]
+}
