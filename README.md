@@ -61,4 +61,11 @@ Intellij Project with demos for Module 7 using threads.
 1. Open folder as IntelliJ project
 2. Go to the desired main class and run the code.
 
+## Week 2 Activity - FirstGUI
+You will find the Java files created in class which:
+- Create a simple window application
+- Create and display button, text field, and label
+- Programs button click events
+- Display error dialog message
+
 
