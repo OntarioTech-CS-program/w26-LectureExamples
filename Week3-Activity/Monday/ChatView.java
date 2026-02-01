@@ -14,11 +14,21 @@ public class ChatView extends JFrame {
         this.setLayout(new BorderLayout());
 
         // TODO: Chat display area - CENTER with JScrollPane
-
+		chatArea = new JTextArea();
+		chatArea.setEditable(false);
+		this.add(new JScrollPane(chatArea), BorderLayout.CENTER);
 
 
         // TODO: Input panel (PAGE_END) - CENTER for inputField and LINE_END for sendButton
         JPanel inputPanel = new JPanel(new BorderLayout());
+		inputField = new JTextField();
+		sendButton = new JButton("Send");
+		// add input text and button to panel
+		inputPanel.add(inputField, BorderLayout.CENTER);
+		inputPanel.add(sendButton, BorderLayout.LINE_END);
+		
+		// added panel to window at page_end
+		this.add(inputPanel, BorderLayout.PAGE_END);
 
 
     }

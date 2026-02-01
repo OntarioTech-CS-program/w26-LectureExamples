@@ -68,4 +68,10 @@ You will find the Java files created in class which:
 - Programs button click events
 - Display error dialog message
 
+## Week 3 Activity - Chat App using MVC
+You will find the Java files modified in class which completes all the TODO items.
+- ChatView.java
+- ChatController.java
+- ChatModel.java
+
 
