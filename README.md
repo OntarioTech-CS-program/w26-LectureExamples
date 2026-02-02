@@ -74,4 +74,9 @@ You will find the Java files modified in class which completes all the TODO item
 - ChatController.java
 - ChatModel.java
 
+## Week 4 Activity - Loading Resources from Resource Directory
+You will find the Java files and TODO items.
+- This is an IntelliJ project; once you clone this repository, open the `Week4-Activity` folder as an IntelliJ project.
+- ResourceView.java
+
 
