@@ -79,4 +79,9 @@ You will find the Java files and TODO items.
 - This is an IntelliJ project; once you clone this repository, open the `Week4-Activity` folder as an IntelliJ project.
 - ResourceView.java
 
+## Week 5 Activity - Simple Text Editor Open/Save
+You will find the Java files and TODO items.
+- This is an IntelliJ project; once you clone this repository, open the `Week5-Activity` folder as an IntelliJ project.
+- SimpleTextEditor.java
+
 
