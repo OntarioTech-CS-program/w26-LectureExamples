@@ -84,4 +84,10 @@ You will find the Java files and TODO items.
 - This is an IntelliJ project; once you clone this repository, open the `Week5-Activity` folder as an IntelliJ project.
 - SimpleTextEditor.java
 
+## Week 6 Activity - Simple Chat Client-Server using Sockets
+You will find the Java files and TODO items.
+- This is an IntelliJ project; once you clone this repository, open the `Week6-Activity` folder as an IntelliJ project.
+- SocketServer.java
+- SocketClient.java
+
 
