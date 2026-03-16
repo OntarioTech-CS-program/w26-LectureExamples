@@ -90,4 +90,8 @@ You will find the Java files and TODO items.
 - SocketServer.java
 - SocketClient.java
 
-
+## Week 9 Activity - Chat App with UI and multi-clients using Sockets
+You will find the Java files and TODO items.
+- This is an IntelliJ project; once you clone this repository, open the `Week9-Activity` folder as an IntelliJ project.
+- ChatServer.java
+- ChatClientApp.java
