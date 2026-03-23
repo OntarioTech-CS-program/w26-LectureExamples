@@ -59,22 +59,22 @@ public class ProgressBarParallelDemo extends JFrame {
                             Thread.sleep(2000); // 2 seconds per file
 
                             // TODO #1: Increment the AtomicInteger safely
-
+                            int finished = filesFinished.incrementAndGet();
 
                             // TODO #2: Publish the current percentage
-
+                            publish((finished * 100) / total);
 
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         } finally {
                             // TODO #3: Tell the latch one worker is done
-
+                            latch.countDown();
                         }
                     });
                 }// end - for each file
 
                 // TODO #4: Wait for all threads to finish before returning
-
+                latch.await();
 
                 executor.shutdown();
                 return "All "+total+" files processed in parallel!";
