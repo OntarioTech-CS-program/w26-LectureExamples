@@ -95,3 +95,8 @@ You will find the Java files and TODO items.
 - This is an IntelliJ project; once you clone this repository, open the `Week9-Activity` folder as an IntelliJ project.
 - ChatServer.java
 - ChatClientApp.java
+
+## Week 10 Activity - Multi-threading and UI update
+You will find the Java files and TODO items.
+- This is an IntelliJ project; once you clone this repository, open the `Week10-Activity` folder as an IntelliJ project.
+- ProgressBarParallelDemo.java
