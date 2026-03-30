@@ -35,8 +35,13 @@ public class ProgressBarParallelDemo extends JFrame {
         SwingWorker<String, Integer> worker = new SwingWorker<>() {
             @Override
             protected String doInBackground() throws Exception {
-                String[] files = {"File_A", "File_B", "File_C", "File_D"};
-                int total = files.length;
+//                String[] files = {"File_A", "File_B", "File_C", "File_D"};
+//                int total = files.length;
+                int total = 100;
+                String[] files = new String[total];
+                for (int i = 0; i < total; i++) {
+                    files[i] = String.format("File %d", i);
+                }
 
                 // Create a pool of N=total threads
                 ExecutorService executor = Executors.newFixedThreadPool(total);
@@ -59,22 +64,26 @@ public class ProgressBarParallelDemo extends JFrame {
                             Thread.sleep(2000); // 2 seconds per file
 
                             // TODO #1: Increment the AtomicInteger safely
-
+                            int completed = filesFinished.incrementAndGet();
 
                             // TODO #2: Publish the current percentage
+                            int progress = (int) ((float)completed / (float)total)*100;
+                            publish(progress);
+
 
 
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         } finally {
                             // TODO #3: Tell the latch one worker is done
+                            latch.countDown();
 
                         }
                     });
                 }// end - for each file
 
                 // TODO #4: Wait for all threads to finish before returning
-
+                latch.await();
 
                 executor.shutdown();
                 return "All "+total+" files processed in parallel!";
