@@ -45,13 +45,34 @@ class RockPaperScissorsServer {
             while (true) {
                 String choice = in.readLine();
                 // TODO: set choices 1 and 2, have them know; if both chose, determine and broadcast winners
+                synchronized (lock){
+                    if(playerNumber == 1){
+                        choice1 = choice;
+                        out2.println("Player 1 has chosen. Waiting for you...");
+                    } else{
+                        choice2 = choice;
+                        out1.println("Player 2 has chosen. Waiting for you...");
+                    }
+                    // if both have chosen
+                    if (choice1 != null && choice2 != null) {
+                        // find winner
+                        String results = determineWinner();
+
+                        // broadcast the winner
+                        out1.println(results);
+                        out2.println(results);
+
+                        // resetting the game after announcing the outcome of the match
+                        choice1 = null;
+                        choice2 = null;
+                        out1.println("Both players connected. Make your move: Rock, Paper, or Scissors");
+                        out2.println("Both players connected. Make your move: Rock, Paper, or Scissors");
+
+                    }
+                }
 
 
-                // resetting the game after announcing the outcome of the match
-                choice1 = null;
-                choice2 = null;
-                out1.println("Both players connected. Make your move: Rock, Paper, or Scissors");
-                out2.println("Both players connected. Make your move: Rock, Paper, or Scissors");
+
 
             }
         } catch (IOException e) {
